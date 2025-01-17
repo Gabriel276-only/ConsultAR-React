@@ -34,7 +34,7 @@ const ServicesSection = () => {
       }`}
     >
       <div className="flex flex-col items-center space-y-6 md:space-y-10 p-4">
-  <section className="relative w-full bg-gray-50 py-8 sm:py-16 md:py-20">
+  <section id='sobre' className="relative w-full bg-gray-50 py-8 sm:py-16 md:py-20">
     <h1 className="text-center text-2xl font-bold text-red-700 md:text-4xl">Nossos Objetivos</h1>
     <p className="mt-4 text-center text-sm text-gray-700 md:text-base max-w-xl mx-auto"></p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -51,7 +51,13 @@ const ServicesSection = () => {
           ))}
         </div>
         </section>
-      <Galeria/>
+        <section>
+        <h1 className="text-center text-2xl font-bold text-red-700 md:text-4xl">Covênios e Parcerias</h1>
+        <p className="mt-4 text-center text-sm text-gray-700 md:text-base max-w-xl mx-auto">A ConsultAR Saúde e Bem-Estar possui convênios com diversas empresas e instituições, oferecendo descontos e condições especiais para seus colaboradores e associados. Confira abaixo alguns de nossos parceiros:</p>
+        </section>
+        <section className='flex flex-wrap justify-center'>
+         <Galeria/>
+      </section>
       </div>
       
 
