@@ -25,7 +25,7 @@ const Section = () => {
         <div className="relative flex flex-wrap justify-center items-center space-x-4 space-y-4">
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1612836251471-3b3b3f1b3b3b"
+              src="public/assets/consultorio/consultorio-1.jpg"
               alt="Image 1"
               className="w-full h-full object-cover"
             />
