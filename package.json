@@ -2,10 +2,9 @@
   "name": "consultar-flowbite",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
