@@ -2,8 +2,8 @@
   "name": "consultar-flowbite",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
-      "build": "next build",
+    "dev": "netx dev",
+    "build": "netx build",
     "start": "next start"
   },
   "dependencies": {
