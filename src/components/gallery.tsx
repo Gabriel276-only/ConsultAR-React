@@ -98,11 +98,11 @@ const Galeria = () => {
         </Slider>
         <h1 className="text-2xl font-bold text-red-800 m-2">Nossos Parceiros e Convênios</h1>
         <div className="flex flex-wrap justify-center items-center ">
-          <img src="public/assets/logos/cherem.png" alt="Grupo Cherem" className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="public/assets/logos/unimed.png" alt="Unimed" className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="public/assets/logos/ABM.png" alt="Mary & Flor" className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="public/assets/logos/ultraplan.jpg" alt="Mary & Flor" className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="public/assets/logos/BomJesus.png" alt="Mary & Flor" className="w-40 h-40 rounded-full border border-gray-900" />
+          <img src="/assets/logos/cherem.png" alt="Grupo Cherem" className="w-40 h-40 rounded-full border border-gray-900" />
+          <img src="/assets/logos/unimed.png" alt="Unimed" className="w-40 h-40 rounded-full border border-gray-900" />
+          <img src="/assets/logos/ABM.png" alt="Mary & Flor" className="w-40 h-40 rounded-full border border-gray-900" />
+          <img src="/assets/logos/ultraplan.jpg" alt="Mary & Flor" className="w-40 h-40 rounded-full border border-gray-900" />
+          <img src="/assets/logos/BomJesus.png" alt="Mary & Flor" className="w-40 h-40 rounded-full border border-gray-900" />
           </div>
       </div>
     </div>
