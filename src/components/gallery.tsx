@@ -70,7 +70,7 @@ const Galeria = () => {
     {
       title: "Ana Celia Dieguez",
       image: "/AnaCelia.jpg", 
-      description: "Fisioterapeuta, atua com fisioterapia geral, fisioterapia estética, pilates, drenagem linfática, massagem modeladora e massagem redutora. Parceira da ConsultAR, atende no Studio Mary & Flor Fisioterapia e atendimento domiciliar",
+      description: "descrição da ana celia",
     }
   ];
 
@@ -86,7 +86,7 @@ const Galeria = () => {
               <img
                 src={slide.image}
                 alt={`slide ${index}`}
-                className="w-full h-48 sm:h-64 object-cover" 
+                className="w-full h-50 sm:h-50 object-cover" 
               />
               <div className="p-6">
                 <h1 className='text-red-700 font-bold text-xl'>{slide.title}</h1>
@@ -97,7 +97,7 @@ const Galeria = () => {
           ))}
         </Slider>
         <h1 className="text-2xl font-bold text-red-800 m-2">Nossos Parceiros e Convênios</h1>
-        <div className="flex flex-wrap justify-center items-center ">
+        <div className="flex flex-wrap justify-center items-center  ">
           <img src="/assets/logos/cherem.png" alt="Grupo Cherem" className="w-40 h-40 rounded-full border border-gray-900" />
           <img src="/assets/logos/unimed.png" alt="Unimed" className="w-40 h-40 rounded-full border border-gray-900" />
           <img src="/assets/logos/ABM.png" alt="ABM Plano de Vida" className="w-40 h-40 rounded-full border border-gray-900" />

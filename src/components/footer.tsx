@@ -20,7 +20,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-2">Contato</h3>
             <p className="text-sm text-gray-300">
-              <a href="mailto:consultar@gmail.com" className="hover:underline">remagalhaes@uol.com</a>
+              <a href="mailto:magalhaes.regiane@bol.com.br" className="hover:underline">magalhaes.regiane@bol.com.br</a>
+            </p>
+            <p className="text-sm text-gray-300">
+              <a href="mailto:barbara.crivas@gmail.com" className="hover:underline">barbara.crivas@gmail.com</a>
             </p>
             <p className="text-sm text-gray-300">(24) 98115-9042</p>
             <p className="text-sm text-gray-300">(24) 2471-9040</p>
