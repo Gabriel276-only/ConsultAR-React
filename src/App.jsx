@@ -6,7 +6,7 @@ import Section from './components/section.tsx';
 import  Footer  from './components/footer.tsx';
 const App = () => {
   return (
-    <div>
+    <div className='bg-gray-50'>
       <NavBar />
   <div className="flex flex-col min-h-screen">
   <main className="flex-grow">

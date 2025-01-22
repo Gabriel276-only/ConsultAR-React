@@ -27,28 +27,28 @@ const Section = () => {
             <img
               src="/assets/consultorio/consultorio-1.jpg"
               alt="Image 1"
-              className="w-full h-full object-cover"
+              className="w-full h-full "
             />
           </div>
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1607012736597-21c5f44ecb27"
+              src="/assets/consultorio/consultorio-2.jpg"
               alt="Image 2"
-              className="w-full h-full object-cover"
+              className="w-full h-full"
             />
           </div>
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
+              src="/assets/consultorio/consultorio-3.jpg"
               alt="Image 3"
-              className="w-full h-full object-cover"
+              className="w-full h-full"
             />
           </div>
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
               alt="Image 4"
-              className="w-full h-full object-cover"
+              className="w-full h-full"
             />
           </div>
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
