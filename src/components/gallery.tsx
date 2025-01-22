@@ -40,17 +40,17 @@ const Galeria = () => {
   const slidesData = [
     {
       title: "Acácio Borges",
-      image: "./public/acacio.jpg",
+      image: "public/acacio.jpg",
       description: "Profissional comprometido com o cuidado, desenvolve protocolos de prevenção e manutenção da Saúde e do Bem-Estar. Além de diversos cursos na área de massoterapia, é formado em Pedagogia, possui pós-graduação em gestão de pessoas e compõe o trio gestor da ConsultAR. Realiza tratamento para alívio das dores musculares causadas pelos treinos intensos, pelo trabalho ou por questões posturais; auxilia na construção de hábitos mais saudáveis e sem dores no dia a dia. Desenvolve protocolos terapêuticos associados aos tratamentos de psicoterapia para adoecimentos emocionais."
     },
     {
       title: "Regiane Magalhães",	
-      image: "./public/regiane.jpg",
+      image: "public/regiane.jpg",
       description: "Graduada em psicologia pelo CES Juiz de Fora, possui pós graduação em gestão de pessoas e é psicanalista em formação, membro do Corpo Freudiano de Vassouras/RJ. Palestrante, foi professora por muitos anos em cursos técnicos, cursos de graduação e pós-graduação. É psicóloga clínica e supervisora. Compõe o trio gestor da ConsultAR e atende em Vassouras, Barra do Piraí e on-line. Regularmente inscrita no Conselho de Psicologia, bem como devidamente autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular, convênios e plano de saúde,",
     },
     {
       title: "Barbara Crivas",
-      image: "./public/barbara.jpg", 
+      image: "public/barbara.jpg", 
       description: "Graduada em Psicologia, desenvolve trabalhos com público infantojuvenil e feminino. É autora colaboradora do livro Referências Básicas do Direito Contemporâneo - Vol. 1 com o artigo: Direito e Políticas Públicas na interseção do feminismo; idealizadora do Projeto Adolescer, da Oficina Terapêutica envolvendo psicologia e pedagogia e do Grupo Psicoterapêutico para crianças de 4 a 6 anos. Compõe o trio gestor da ConsultAR. Regularmente inscrita no Conselho de Psicologia, bem como autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular, por convênios e plano de saúde.",
     },
     {
@@ -60,16 +60,16 @@ const Galeria = () => {
     },
     {
       title: "Ana Claudia",
-      image: "./public/Anaclaudia.jpg", 
+      image: "public/Anaclaudia.jpg", 
       description: "Professora de Educação Especial desde 2002 e formação em psicopedagogia, Ana Cláudia é parceira da ConsultAR e atende no Espaço Psicopedagógico em Barra do Piraí. Graduada em estudos sociais, especialista em autismo e apaixonada por práticas baseadas em evidências: ABA, TEACCH, Denver, DIR Floortime/Desenvolvimento Infantil (DIR 101 e em andamento DIR 201) e integração sensorial.",    },
     {
       title: "Andressa Flor",
-      image: "./public/maryflor.jpg", 
+      image: "public/maryflor.jpg", 
       description: "Fisioterapeuta, atua com fisioterapia geral, fisioterapia estética, pilates, drenagem linfática, massagem modeladora e massagem redutora. Parceira da ConsultAR, atende no Studio Mary & Flor Fisioterapia e atendimento domiciliar",
     },
     {
       title: "Ana Celia Dieguez",
-      image: "./public/AnaCelia.jpg", 
+      image: "public/AnaCelia.jpg", 
       description: "Fisioterapeuta, atua com fisioterapia geral, fisioterapia estética, pilates, drenagem linfática, massagem modeladora e massagem redutora. Parceira da ConsultAR, atende no Studio Mary & Flor Fisioterapia e atendimento domiciliar",
     }
   ];
