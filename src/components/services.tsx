@@ -26,6 +26,37 @@ const ServicesSection = () => {
     },
   ];
 
+  const Service = () => {
+    const settings = {
+      infinite: true,
+      speed: 900,
+      slidesToShow: 2,
+      autoplay: true,
+      pauseOnHover: true,
+      responsive: [
+        {
+          breakpoint: 1024, 
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 768, 
+          settings: {
+            slidesToShow: 1, 
+            speed: 600, 
+          },
+        },
+        {
+          breakpoint: 640, 
+          settings: {
+            slidesToShow: 1,
+            arrows: false, 
+          },
+        },
+      ],
+    };
+
   return (
     
       <div className="flex flex-col items-center space-y-6 md:space-y-10 p-4">
@@ -56,10 +87,10 @@ const ServicesSection = () => {
       </div>
       
     
-    
+        
   );
 };
-
+};
 
 
 export default ServicesSection;
