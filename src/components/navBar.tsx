@@ -13,7 +13,7 @@ const NavBar = () => {
       <nav className="border-gray-300 bg-gray-200 dark:bg-gray-800 dark:border-gray-800 shadow-lg">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src='public\assets\logos\logo-removebg-preview.png' alt="Logo" className="w-40 h-40" />
+            <img src='\assets\logos\logo-removebg-preview.png' alt="Logo" className="w-40 h-40" />
           </a>
           <button
             onClick={toggleMenu}
