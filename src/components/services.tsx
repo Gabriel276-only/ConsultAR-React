@@ -27,12 +27,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <div
-      ref={ref}
-      className={`py-8 transition-opacity duration-1000 ease-out ${
-        inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-100'
-      }`}
-    >
+    
       <div className="flex flex-col items-center space-y-6 md:space-y-10 p-4">
   <section id='sobre' className="relative w-full bg-gray-50 py-8 sm:py-16 md:py-20">
     <h1 className="text-center text-2xl font-bold text-red-700 md:text-4xl">Nossos Objetivos</h1>
@@ -60,9 +55,6 @@ const ServicesSection = () => {
       </section>
       </div>
       
-
-
-    </div>
     
     
   );
