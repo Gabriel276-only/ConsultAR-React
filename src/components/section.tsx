@@ -25,7 +25,7 @@ const Section = () => {
         <div className="relative flex flex-wrap justify-center items-center space-x-4 space-y-4">
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
             <img
-              src="public/assets/consultorio/consultorio-1.jpg"
+              src="/assets/consultorio/consultorio-1.jpg"
               alt="Image 1"
               className="w-full h-full object-cover"
             />
@@ -54,14 +54,14 @@ const Section = () => {
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1607012736597-21c5f44ecb27"
-              alt="Image 2"
+              alt="Image 5"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-40 h-56 overflow-hidden rounded-lg shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1607012736597-21c5f44ecb27"
-              alt="Image 2"
+              alt="Image 6"
               className="w-full h-full object-cover"
             />
           </div>
