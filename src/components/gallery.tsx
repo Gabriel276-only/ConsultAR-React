@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Galeria = () => {
   const settings = {
     infinite: true,
-    speed: 900,
+    speed: 1200,
     slidesToShow: 2,
     autoplay: true,
     pauseOnHover: true,
@@ -70,7 +70,7 @@ const Galeria = () => {
     {
       title: "Ana Celia Dieguez",
       image: "/AnaCelia.jpg", 
-      description: "descrição da ana celia",
+      description: "Graduada em psicologia pela Universidade de Vassouras, atende pela perspectiva da Psicanálise. Além do atendimento clínico a adultos e idosos, atende como palestrante. Atende na ConsultAR em Barra do Piraí e on-line. Regularmente inscrita no Conselho de Psicologia, bem como devidamente autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular e convênios.",
     }
   ];
 
@@ -96,13 +96,14 @@ const Galeria = () => {
             </div>
           ))}
         </Slider>
-        <h1 className="text-2xl font-bold text-red-800 m-2">Nossos Parceiros e Convênios</h1>
-        <div className="flex flex-wrap justify-center items-center  ">
-          <img src="/assets/logos/cherem.png" alt="Grupo Cherem" className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="/assets/logos/unimed.png" alt="Unimed" className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="/assets/logos/ABM.png" alt="ABM Plano de Vida" className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="/assets/logos/Ultraplan.jpg" alt="Ultraplan " className="w-40 h-40 rounded-full border border-gray-900" />
-          <img src="/assets/logos/BomJesus.png" alt="Grupo Bom Jesus" className="w-40 h-40 rounded-full border border-gray-900" />
+        <h1 className="text-2xl font-bold text-red-800 m-2 ">Nossos Parceiros e Convênios</h1>
+        <div className="flex flex-wrap justify-center items-center space-x-1">
+          <img src="/assets/logos/unimed.png" alt="Unimed" className="w-32 h-32 rounded-full border border-gray-900" />
+          <img src="/assets/logos/cherem.png" alt="Grupo Cherem" className="w-32 h-32 rounded-full border border-gray-900" />
+          <img src="/assets/logos/ABM.png" alt="ABM Plano de Vida" className="w-32 h-32 rounded-full border border-gray-900" />
+          <img src="/assets/logos/planMinas.png" alt="plan minas" className="w-32 h-32 rounded-full border border-gray-900" />
+          <img src="/assets/logos/Ultraplan.jpg" alt="Ultraplan " className="w-32 h-32 rounded-full border border-gray-900" />
+          <img src="/assets/logos/BomJesus.jpg" alt="Grupo Bom Jesus" className="w-32 h-32 rounded-full border border-gray-900" />
           </div>
       </div>
     </div>

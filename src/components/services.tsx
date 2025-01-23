@@ -26,70 +26,49 @@ const ServicesSection = () => {
     },
   ];
 
-  const Service = () => {
-    const settings = {
-      infinite: true,
-      speed: 900,
-      slidesToShow: 2,
-      autoplay: true,
-      pauseOnHover: true,
-      responsive: [
-        {
-          breakpoint: 1024, 
-          settings: {
-            slidesToShow: 2,
-          },
-        },
-        {
-          breakpoint: 768, 
-          settings: {
-            slidesToShow: 1, 
-            speed: 600, 
-          },
-        },
-        {
-          breakpoint: 640, 
-          settings: {
-            slidesToShow: 1,
-            arrows: false, 
-          },
-        },
-      ],
-    };
 
   return (
-    
-      <div className="flex flex-col items-center space-y-6 md:space-y-10 p-4">
-  <section id='sobre' className="relative w-full bg-gray-50 py-8 sm:py-16 md:py-20">
-    <h1 className="text-center text-2xl font-bold text-red-700 md:text-4xl">Nossos Objetivos</h1>
-    <p className="mt-4 text-center text-sm text-gray-700 md:text-base max-w-xl mx-auto"></p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className=" text-justify p-6 bg-gray-100 rounded-lg shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition-shadow  duration-300"
-            >
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                {service.title}
-              </h3>
-              <p className="text-gray-600 leading-relaxed">{service.description}</p>
-            </div>
-          ))}
+    <div id='sobre'className="relative container flex flex-col bg-gray-150 p-4 space-y-6">
+    <h1 className="font-bold text-red-800 text-2xl border-b-2 border-red-700 pb-2">
+      Nossos Objetivos
+    </h1>
+    <p className="text-center font-semibold mt-4 text-gray-700 text-sm sm:text-base">
+      Nosso objetivo é cuidar da sua saúde e bem-estar com uma abordagem
+      completa e humanizada.
+    </p>
+    <div className="mt-6 space-y-4">
+      {services.map((service, index) => (
+        <div
+          key={index}
+          className="p-4 bg-gray-50 border border-gray-200 rounded-md shadow-sm hover:shadow-lg transition-shadow duration-300"
+        >
+          <h3 className="font-semibold text-lg text-red-700">
+            {service.title}
+          </h3>
+          <p className="text-gray-700 text-sm mt-2 text-justify">{service.description}</p>
         </div>
-        </section>
-        <section>
-        <h1 className="text-center text-2xl font-bold text-red-700 md:text-4xl">Covênios e Parcerias</h1>
-        <p className="mt-4 text-center text-sm text-gray-700 md:text-base max-w-xl mx-auto">A ConsultAR Saúde e Bem-Estar possui convênios com diversas empresas e instituições, oferecendo descontos e condições especiais para seus colaboradores e associados. Confira abaixo alguns de nossos parceiros:</p>
-        </section>
-        <section className='flex flex-wrap justify-center'>
-         <Galeria/>
-      </section>
-      </div>
+      ))}
+    </div>
+
+
+  <section className="bg-white rounded-lg shadow-md p-4">
+    <h1 className="font-bold text-red-800 text-2xl border-b-2 border-red-700 pb-2">
+      Convênios e Parcerias
+    </h1>
+    <p className="text-justify p-10 font-medium mt-4 text-gray-700 text-md md:text-base ">
+      A ConsultAR Saúde e Bem-Estar possui convênios com diversas empresas e
+      instituições, oferecendo descontos e condições especiais para seus
+      colaboradores e associados. Confira abaixo alguns de nossos parceiros:
+    </p>
+  
+    <Galeria />
+  </section>
+</div>
+
       
     
         
   );
-};
 };
 
 
