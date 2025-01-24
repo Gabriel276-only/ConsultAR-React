@@ -1,6 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
+
+const WhatsAppButton = () => {
+  const phoneNumber = "5521999999999"; // Substitua pelo número desejado
+  const message = "Olá! Gostaria de mais informações sobre os serviços."; // Mensagem inicial
+
+  const whatsAppUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+};
 
 const Footer = () => {
   return (
@@ -8,7 +16,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-2">ConsultAR</h3>
+            <h3 className="text-lg font-bold mb-2">ConsultAR Saúde e Bem-estar</h3>
             <p className="text-sm font-bold text-gray-200">Vassouras</p>
             <p className="text-sm text-gray-300">Avenida Prefeito Henrique Borges filho, 174;
             </p>
@@ -37,6 +45,7 @@ const Footer = () => {
             <a href='https://m.facebook.com/consultarsaudebemestar/' target='_blank' rel='noopener noreferrer' className='mr-4'>
             <FontAwesomeIcon icon={faFacebook} className="text-2xl text-gray-400 hover:text-white" /> 
             </a> 
+
           </div>
           
           </div>

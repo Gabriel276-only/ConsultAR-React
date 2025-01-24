@@ -5,8 +5,8 @@ const Section = () => {
 
 <section>
 
-<div className="bg-white min-h-screen flex flex-col justify-center px-4 sm:px-8">
-      <div className="container mx-auto flex flex-col lg:flex-row items-start gap-8">
+<div className="bg-gray-50 min-h-screen flex flex-col justify-center px-4 sm:px-8">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start lg:space-x-12">
         
         <div className="w-full lg:w-1/2">
           <h1 className="text-4xl sm:text-5xl font-bold text-red-700 mb-6">
@@ -29,44 +29,43 @@ const Section = () => {
           </p>
         </div>
 
-        
-        <div className="w-full lg:w-1/2 grid grid-cols-2 sm:grid-cols-3 gap-4">
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <img
-              src="/assets/consultorio/consultorio-1.jpg"
-              alt="Consultório 1"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <img
-              src="/assets/consultorio/consultorio-2.jpg"
-              alt="Consultório 2"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <img
-              src="/assets/consultorio/consultorio-3.jpg"
-              alt="Consultório 3"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <img
-              src="/assets/consultorio/consultorio-4.jpg"
-              alt="Consultório 4"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <img
-              src="/assets/consultorio/consultorio-5.jpg"
-              alt="Consultório 5"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
+        <div className="relative flex flex-wrap justify-center items-center gap-8 mt-20">
+  <div className="relative overflow-hidden rounded-lg shadow-lg ">
+    <img
+      src="/assets/consultorio/consultorio-1.jpg"
+      alt="Consultório 1"
+      className="w-52 h-56 object-cover"
+    />
+  </div>
+  <div className="relative overflow-hidden rounded-lg shadow-lg">
+    <img
+      src="/assets/consultorio/consultorio-2.jpg"
+      alt="Consultório 2"
+      className="w-56 h-64 object-cover"
+    />
+  </div>
+  <div className="relative overflow-hidden rounded-lg shadow-lg">
+    <img
+      src="/assets/consultorio/consultorio-6.jpg"
+      alt="Consultório 3"
+      className="w-56 h-60 object-cover"
+    />
+  </div>
+  <div className="relative overflow-hidden rounded-lg shadow-lg">
+    <img
+      src="/assets/consultorio/consultorio-4.png"
+      alt="Consultório 4"
+      className="w-40 h-52 object-cover"
+    />
+  </div>
+  <div className="relative overflow-hidden rounded-lg shadow-lg">
+    <img
+      src="/assets/consultorio/consultorio-5.jpg"
+      alt="Consultório 5"
+      className="w-52 h-56 object-cover"
+    />
+  </div>
+</div>
       </div>
     </div> 
    

@@ -75,7 +75,7 @@ const Galeria = () => {
   ];
 
   return (
-    <div className="container m-0 px-4 sm:px-6">
+    <div id='sobre' className="container m-0 px-4 sm:px-6">
       <div className="w-full mt-8"> 
         <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold text-red-800">Nossos Profissionais</h2>
