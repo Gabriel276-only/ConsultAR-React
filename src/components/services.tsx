@@ -12,30 +12,26 @@ const ServicesSection = () => {
     {
       title: "Nossa Missão",
       description:
-        "Promover o bem-estar integral de cada indivíduo, através de um atendimento personalizado, ético e humanizado. Buscamos fortalecer as relações interpessoais e sociais, proporcionando ferramentas e conhecimentos para que nossos clientes alcancem uma vida mais saudável, equilibrada e feliz. Acreditamos que a saúde vai além da ausência de doenças e engloba todos os aspectos da vida, desde a alimentação e a atividade física até o bem-estar emocional e social. Nosso objetivo é ser um parceiro de confiança na jornada de nossos clientes em direção a uma vida mais plena.",
+        "Promover o bem-estar físico, psíquico e social a partir de um atendimento ético e humanizado, possibilitando melhoria nas relações e na qualidade de vida.",
     },
     {
       title: "Nossa Visão",
       description:
-        "Ser reconhecidos como a referência em saúde e bem-estar, oferecendo serviços inovadores e de alta qualidade. Desejamos transformar a vida das pessoas, promovendo hábitos saudáveis e uma maior qualidade de vida. Nossa visão é construir um futuro onde a saúde e o bem-estar sejam acessíveis a todos.",
+        "Ser reconhecida pela excelência e evolução constante dos serviços prestados.",
     },
     {
       title: "Nossos Valores",
       description:
-        "Nossos Valores são a essência da ConsultAR Saúde e Bem-Estar. Acreditamos na força da humanização, oferecendo um atendimento acolhedor e personalizado, onde cada indivíduo é valorizado em sua singularidade. A integridade é a base de nossas relações, garantindo transparência e honestidade em todas as nossas ações. O respeito às diferenças é um pilar fundamental, promovendo um ambiente inclusivo e acolhedor para todos. Nosso compromisso é com a excelência, buscando sempre superar as expectativas de nossos clientes e colaboradores. E a defesa da marca ConsultAR Saúde e Bem-Estar é a paixão que nos move, construindo uma reputação sólida e confiável.",
+        " humanização, integridade, respeito, comprometimento e defesa da marca ConsultAR Saúde e Bem-Estar são a chave para guiar nossa conduta.",
     },
   ];
 
 
   return (
-    <div id='sobre'className="relative container flex flex-col bg-gray-150 p-4 space-y-6">
+    <div className="relative container flex flex-col bg-gray-150 p-4 space-y-6 md:flex">
     <h1 className="font-bold text-red-800 text-2xl border-b-2 border-red-700 pb-2">
       Nossos Objetivos
     </h1>
-    <p className="text-center font-semibold mt-4 text-gray-700 text-sm sm:text-base">
-      Nosso objetivo é cuidar da sua saúde e bem-estar com uma abordagem
-      completa e humanizada.
-    </p>
     <div className="mt-6 space-y-4">
       {services.map((service, index) => (
         <div

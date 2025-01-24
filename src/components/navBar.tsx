@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +12,13 @@ const NavBar = () => {
     <>
       <nav className="border-gray-300 bg-gray-200 dark:bg-gray-800 dark:border-gray-800 shadow-lg">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src='\assets\logos\logo-removebg-preview.png' alt="Logo" className="w-40 h-40" />
-          </a>
+          <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <img
+              src="\assets\logos\logo-removebg-preview.png"
+              alt="Logo"
+              className="w-40 h-40"
+            />
+          </Link>
           <button
             onClick={toggleMenu}
             className="relative z-10 flex flex-col justify-center items-center w-10 h-10 md:hidden focus:outline-none"
@@ -35,24 +39,32 @@ const NavBar = () => {
               }`}
             ></span>
           </button>
-          <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-solid-bg">
+          <div
+            className={`${
+              isOpen ? 'block' : 'hidden'
+            } w-full md:block md:w-auto`}
+            id="navbar-solid-bg"
+          >
             <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   className="block py-2 px-3 md:p-0 text-white bg-red-900 rounded md:bg-transparent md:text-red-700 md:dark:text-red-500 dark:bg-red-600 md:dark:bg-transparent"
                   aria-current="page"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to="/">
+                
+                <a  
                   href="#sobre"
                   className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Serviços
                 </a>
+                  </Link>
               </li>
               <li>
                 <a
@@ -63,8 +75,13 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-
-</li>
+              <Link
+                  to="/forms"
+                  className="block py-5 px-5 md:p-0 text-gray-100 rounded bg-red-700  hover:px-5 hover:transition  duration-300 ease-in-out md:border-0  dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                        >
+                          O que Procuro?
+              </Link>
+              </li>
             </ul>
           </div>
         </div>

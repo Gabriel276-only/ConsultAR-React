@@ -1,27 +1,24 @@
 // App.jsx
 import './App.css';
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/navBar.tsx';
-import Section from './components/section.tsx';
-import  Footer  from './components/footer.tsx';
+import ServicesSection from './components/section.tsx';
+import Footer from './components/footer.tsx';
+import FormsPage from './components/forms.tsx';
+
 const App = () => {
   return (
-    <div className='bg-gray-50'>
+    <Router>
       <NavBar />
-  <div className="flex flex-col min-h-screen">
-  <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<ServicesSection />} />
+          <Route path="/forms" element={<FormsPage/>} />
+        </Routes>
         <div>
-          <Section /> 
-        <div className="flex z-10">
-          </div>
-        </div>
-      </main>
+      <Footer /> 
       </div>
-      <div> 
-        <Footer />
-      </div>
-     
-    </div>
+    </Router>
   );
 };
 
