@@ -70,6 +70,7 @@ const Section = () => {
     </div> 
    
 <div className="flex flex-col items-center space-y-6 mt-20">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3283863930032653" crossorigin="anonymous"></script>
      <Services />
    </div>   
    </section>
