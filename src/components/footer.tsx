@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-
+import MapEmbed from './maps';
 
 const WhatsAppButton = () => {
   const phoneNumber = "5521999999999"; // Substitua pelo número desejado
@@ -45,11 +45,14 @@ const Footer = () => {
             <a href='https://m.facebook.com/consultarsaudebemestar/' target='_blank' rel='noopener noreferrer' className='mr-4'>
             <FontAwesomeIcon icon={faFacebook} className="text-2xl text-gray-400 hover:text-white" /> 
             </a> 
-
+            <div>
+            <MapEmbed/>
+            </div>
           </div>
           
           </div>
           </div>
+
         <div className="border-t m-3 p-2 border-gray-700  text-center text-sm text-gray-400">
           <p>Desenvolvido por [<a href='https://github.com/Gabriel276-only' target='_blank' rel='noopener noreferrer'>BG-Tech</a>]</p>
         </div>

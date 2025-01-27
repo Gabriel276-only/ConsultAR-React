@@ -56,7 +56,7 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/">
+                
                 
                 <a  
                   href="#sobre"
@@ -64,7 +64,7 @@ const NavBar = () => {
                 >
                   Serviços
                 </a>
-                  </Link>
+                 
               </li>
               <li>
                 <a
