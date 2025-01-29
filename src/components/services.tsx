@@ -36,7 +36,7 @@ const ServicesSection = () => {
       {services.map((service, index) => (
         <div
           key={index}
-          className="p-4 bg-gray-50 border border-gray-200 rounded-md shadow-sm hover:shadow-md hover:shadow-red-900 transition-shadow duration-300"
+          className="p-4 bg-gray-50 border border-gray-200 rounded-md shadow-md hover:shadow-red-900 transition-shadow duration-300"
         >
           <h3 className="font-semibold text-xl text-red-700">
             {service.title}
