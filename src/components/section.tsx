@@ -29,7 +29,8 @@ const Section = () => {
           </p>
         </div>
 
-        <div className="relative flex flex-wrap justify-center items-center gap-8 mt-20">
+        <div className="relative flex flex-wrap justify-center items-center gap-8 mt-10">
+
   <div className="relative overflow-hidden rounded-lg shadow-lg ">
     <img
       src="/assets/consultorio/consultorio-1.jpg"
