@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-2">ConsultAR Saúde e Bem-estar</h3>
+            <h1 className="text-2xl font-bold mb-2">ConsultAR Saúde e Bem-estar</h1>
             <p className="text-sm font-bold text-gray-200">Vassouras</p>
             <p className="text-sm text-gray-300">Avenida Prefeito Henrique Borges filho, 174;
             </p>
@@ -26,15 +26,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-2">Contato</h3>
-            <p className="text-sm text-gray-300">
-              <a href="mailto:magalhaes.regiane@bol.com.br" className="hover:underline">magalhaes.regiane@bol.com.br</a>
-            </p>
-            <p className="text-sm text-gray-300">
-              <a href="mailto:barbara.crivas@gmail.com" className="hover:underline">barbara.crivas@gmail.com</a>
-            </p>
-            <p className="text-sm text-gray-300">(24) 98115-9042</p>
-            <p className="text-sm text-gray-300">(24) 2471-9040</p>
+              <a href="https://linktr.ee/consultarsaudebemestar?fbclid=PAZXh0bgNhZW0CMTEAAaaerrkDLWY4UF766OI5anUjL7wuFd4kulh5iTqhOzOKrNv26EBYScvDVro_aem_HldQRDo3IKMeFKnbIAnLKw"  target='_blank' rel='noopener noreferrer' className="hover:underline"><h3 className="text-lg font-bold mb-2">FALAR COM O PROFISSIONAL</h3></a>
           </div>
           <div className="md:text-right">
             <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} ConsultAR. Todos os direitos reservados.</p>

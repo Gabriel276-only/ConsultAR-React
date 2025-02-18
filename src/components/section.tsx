@@ -5,7 +5,7 @@ const Section = () => {
 
 <section>
 
-<div className="bg-gray-50 min-h-screen flex flex-col justify-center px-4 sm:px-8">
+<div className="bg-white min-h-screen flex flex-col justify-center px-4 sm:px-8">
       <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start lg:space-x-12">
         
         <div className="w-full lg:w-1/2">
