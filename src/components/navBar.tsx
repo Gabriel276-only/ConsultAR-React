@@ -68,7 +68,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  href="#footer"
+                  href="https://linktr.ee/consultarsaudebemestar?fbclid=PAZXh0bgNhZW0CMTEAAaaerrkDLWY4UF766OI5anUjL7wuFd4kulh5iTqhOzOKrNv26EBYScvDVro_aem_HldQRDo3IKMeFKnbIAnLKw"  target='_blank' rel='noopener noreferrer'
                   className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contato
@@ -77,9 +77,9 @@ const NavBar = () => {
               <li>
               <Link
                   to="/forms"
-                  className="block py-5 px-5 md:p-0 text-gray-100 rounded bg-red-700  hover:px-5 hover:transition  duration-300 ease-in-out md:border-0  dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                        >
-                          O que Procuro?
+                  className="block py-4 px-3 w-full text-gray-100 bg-red-700 rounded-md hover:bg-red-600 hover:px-5 transition-all duration-300 ease-in-out md:w-auto md:p-1 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >
+                        Encontre um Profissional
               </Link>
               </li>
             </ul>
