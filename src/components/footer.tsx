@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
 
         <div className="border-t m-3 p-2 border-gray-700  text-center text-sm text-gray-400">
-          <p>Desenvolvido por [<a href='https://github.com/Gabriel276-only' target='_blank' rel='noopener noreferrer'>BG-Tech</a>]</p>
+          <p>Desenvolvido por [<a href='https://github.com/Gabriel276-only' target='_blank' rel='noopener noreferrer'>DEV BORGES</a>]</p>
         </div>
       </div>
     </footer>
