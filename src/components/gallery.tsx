@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Galeria = () => {
   const settings = {
     infinite: true,
-    speed: 1200,
+    speed: 800,
     slidesToShow: 2,
     autoplay: true,
     pauseOnHover: true,
@@ -45,7 +45,7 @@ const Galeria = () => {
       title: "Regiane Magalhães",
       image: "/regiane.jpg",
       description:
-        "Graduada em psicologia pelo CES Juiz de Fora, possui pós graduação em gestão de pessoas e é psicanalista em formação, membro do Corpo Freudiano de Vassouras/RJ. Palestrante, foi professora por muitos anos em cursos técnicos, cursos de graduação e pós-graduação. É psicóloga clínica e supervisora. Compõe o trio gestor da ConsultAR e atende em Vassouras, Barra do Piraí e on-line. Regularmente inscrita no Conselho de Psicologia, bem como devidamente autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular, convênios e plano de saúde.",
+       "Graduada em psicologia pelo CES Juiz de Fora, possui pós graduação em gestão de pessoas e é psicanalista em formação, membro do Corpo Freudiano de Vassouras/RJ. Palestrante, foi professora por muitos anos em cursos técnicos, cursos de graduação e pós-graduação. É psicóloga clínica e supervisora. Compõe o trio gestor da ConsultAR e atende em Vassouras, Barra do Piraí e on-line. Regularmente inscrita no Conselho de Psicologia, bem como devidamente autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular, convênios e plano de saúde.",
     },
     {
       title: "Barbara Crivas",
@@ -57,7 +57,7 @@ const Galeria = () => {
       title: "Raabe Rodrigues",
       image: "/raaaaabe.jpg",
       description:
-        "Psicóloga clínica infantojuvenil; especialista em atendimento infantil, em neuropsicologia, em psicopedagogia e em psicologia hospitalar e da saúde, sua formação em Psicologia se deu pela Universidade de Vassouras. Realiza atendimentos de avaliação do desenvolvimento infantil, orientação a pais e responsáveis, terapia de casal e psicoterapia individual de crianças, adolescentes, adultos e idosos. Regularmente inscrita no Conselho de Psicologia, realiza atendimento na ConsultAR em Vassouras e atendimento on-line.",
+        "Psicóloga clínica infantojuvenil; especialista em atendimento infantil, em neuropsicologia, em psicopedagogia e em psicologia hospitalar e da saúde, sua formação em Psicologia se deu pela Universidade de Vassouras. Realiza atendimentos de avaliação do desenvolvimento infantil, orientação a pais e responsáveis, terapia de casal e psicoterapia individual de crianças, adolescentes, adultos e idosos. Regularmente inscrita no Conselho de Psicologia, realiza atendimento na ConsultAR em Vassouras e atendimento on-line",
     },
     {
       title: "Ana Claudia",
@@ -82,29 +82,29 @@ const Galeria = () => {
   return (
     <div id="sobre" className="container mb-6 px-6 sm:px-8">
       <div className="w-full mt-6">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-red-700 mb-4 leading-tight">Nossos Profissionais</h2>
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-red-700 mb-4 leading-tight text-center">Nossos Profissionais</h2>
         <Slider {...settings}>
           {slidesData.map((slide, index) => (
             <div key={index} className="px-4 hover:scale-105 transition-transform duration-300">
-              <div className="bg-gray-200 rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full object-cover"
+                  className="w-full object-cover h-64 sm:h-80 md:h-96 rounded-t-xl"
                   loading="lazy"
                 />
                 <div className="p-4">
-                  <h3 className="text-2xl font-bold text-red-700 mb-2">{slide.title}</h3>
-                  <p className="text-gray-700 text-md text-justify">{slide.description}</p>
+                  <h3 className="text-xl font-semibold text-red-700 mb-2">{slide.title}</h3>
+                  <p className="text-gray-600 text-sm md:text-md text-justify leading-relaxed">{slide.description}</p>
                 </div>
               </div>
             </div>
           ))}
         </Slider>
       </div>
-      <h2 className="text-4xl sm:text-4xl font-extrabold text-red-700 mb-4 leading-tight m-20 text-center">Nossos Parceiros e Convênios</h2>
+      <h2 className="text-3xl sm:text-4xl font-extrabold text-red-700 my-10 text-center">Nossos Parceiros e Convênios</h2>
       <div className="flex flex-wrap justify-center gap-6">
-        {[
+        {[ 
           { src: "/assets/logos/unimed.png", alt: "Unimed" },
           { src: "/assets/logos/cherem.png", alt: "Grupo Cherem" },
           { src: "/assets/logos/ABM.png", alt: "ABM Plano de Vida" },
@@ -116,7 +116,7 @@ const Galeria = () => {
             key={index}
             src={partner.src}
             alt={partner.alt}
-            className="w-32 h-32 rounded-full border border-gray-300 shadow-md"
+            className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border border-gray-300 shadow-md hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />
         ))}

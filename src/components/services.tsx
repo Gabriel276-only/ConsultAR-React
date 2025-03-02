@@ -29,7 +29,7 @@ const ServicesSection = () => {
 
   return (
     <div className="relative container flex flex-col p-4 space-y-6 md:flex">
-    <h1 className="font-bold text-red-800 text-2xl border-b-2 border-red-700 pb-2">
+    <h1 className="text-3xl sm:text-2xl font-extrabold text-red-700 mb-4 leading-tight border-b-red-700  border-b-2">
       Nossos Objetivos
     </h1>
     <div className="mt-6 space-y-4">
@@ -48,8 +48,8 @@ const ServicesSection = () => {
 
 
   <section className="bg-white rounded-lg shadow-md p-4">
-    <h1 className="font-bold text-red-800 text-2xl border-b-2 border-red-700 pb-2">
-      Convênios e Parcerias
+  <h1 className="text-3xl sm:text-2xl font-extrabold text-red-700 mb-4 leading-tight border-b-red-700  border-b-2">
+  Convênios e Parcerias
     </h1>
     <p className="text-justify p-10 font-medium mt-4 text-gray-700 text-md md:text-base ">
       A ConsultAR Saúde e Bem-Estar possui convênios com diversas empresas e
