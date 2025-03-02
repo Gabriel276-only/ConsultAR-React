@@ -82,7 +82,7 @@ const Galeria = () => {
   return (
     <div id="sobre" className="container mb-6 px-6 sm:px-8">
       <div className="w-full mt-6">
-        <h2 className="text-3xl font-bold mb-4 text-red-800 text-center">Nossos Profissionais</h2>
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-red-700 mb-4 leading-tight">Nossos Profissionais</h2>
         <Slider {...settings}>
           {slidesData.map((slide, index) => (
             <div key={index} className="px-4 hover:scale-105 transition-transform duration-300">
@@ -94,15 +94,15 @@ const Galeria = () => {
                   loading="lazy"
                 />
                 <div className="p-4">
-                  <h3 className="text-xl font-bold text-red-700 mb-2">{slide.title}</h3>
-                  <p className="text-gray-700 text-sm text-justify">{slide.description}</p>
+                  <h3 className="text-2xl font-bold text-red-700 mb-2">{slide.title}</h3>
+                  <p className="text-gray-700 text-md text-justify">{slide.description}</p>
                 </div>
               </div>
             </div>
           ))}
         </Slider>
       </div>
-      <h2 className="text-3xl font-bold mt-8 mb-4 text-red-800 text-center">Nossos Parceiros e Convênios</h2>
+      <h2 className="text-4xl sm:text-4xl font-extrabold text-red-700 mb-4 leading-tight m-20 text-center">Nossos Parceiros e Convênios</h2>
       <div className="flex flex-wrap justify-center gap-6">
         {[
           { src: "/assets/logos/unimed.png", alt: "Unimed" },
