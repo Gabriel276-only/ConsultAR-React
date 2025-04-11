@@ -6,7 +6,7 @@ const TextBlock = () => (
     <h1 className="text-4xl sm:text-5xl font-extrabold text-red-700 mb-4 leading-tight">
       Nossa História
     </h1>
-    <h2 className="text-xl sm:text-2xl text-gray-600 mb-8 font-medium">
+    <h2 className="text-xl sm:text-2xl text-gray-700 mb-8 font-medium">
       Conheça a trajetória da ConsultAR
     </h2>
     <p className="text-gray-700 text-lg sm:text-xl leading-relaxed mb-6">

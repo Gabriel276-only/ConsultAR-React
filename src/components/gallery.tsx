@@ -36,46 +36,51 @@ const Galeria = () => {
 
   const slidesData = [
     {
-      title: "Acácio Borges",
+      title: "Massoterapeuta Acácio Fonseca Borges",
       image: "/acacio.jpg",
       description:
-        "Profissional comprometido com o cuidado, desenvolve protocolos de prevenção e manutenção da Saúde e do Bem-Estar. Além de diversos cursos na área de massoterapia, é formado em Pedagogia, possui pós-graduação em gestão de pessoas e compõe o trio gestor da ConsultAR. Realiza tratamento para alívio das dores musculares causadas pelos treinos intensos, pelo trabalho ou por questões posturais; auxilia na construção de hábitos mais saudáveis e sem dores no dia a dia. Desenvolve protocolos terapêuticos associados aos tratamentos de psicoterapia para adoecimentos emocionais.",
+        "Desenvolvo protocolos para promoção de Saúde e Bem-Estar e prevenção de dores. Ajudo você adesenvolver hábitos mais saudáveis e sem dores no dia a dia. São mais de 30 certificações na áreade massoterapia, trabalho com massagens relaxantes, desportivas e terapêuticas, além de outrastécnicas como a terapia com Ventosas, Dry Needling, Moxa, Cone Hindu, Pedras Quentes,Bandagem Funcional.",
     },
     {
-      title: "Regiane Magalhães",
+      title: "Psicóloga Regiane Magalhães (CRP 05/31197)",
       image: "/regiane.jpg",
       description:
-       "Graduada em psicologia pelo CES Juiz de Fora, possui pós graduação em gestão de pessoas e é psicanalista em formação, membro do Corpo Freudiano de Vassouras/RJ. Palestrante, foi professora por muitos anos em cursos técnicos, cursos de graduação e pós-graduação. É psicóloga clínica e supervisora. Compõe o trio gestor da ConsultAR e atende em Vassouras, Barra do Piraí e on-line. Regularmente inscrita no Conselho de Psicologia, bem como devidamente autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular, convênios e plano de saúde.",
+       "Pós-graduada em gestão de pessoas e Psicanalista em formação, já atuei como palestrante e professora universitária. Regularmente habilitada pelo Conselho de Psicologia, atualmente atuocomo psicóloga clínica de adultos auxiliando no tratamento de demandas emocionais e napromoção de Saúde e Bem-Estar.",
     },
     {
-      title: "Barbara Crivas",
+      title: "Psicóloga Bárbara Crivas (CRP 05/55030)",
       image: "/barbara.jpg",
       description:
-        "Graduada em Psicologia, desenvolve trabalhos com público infantojuvenil e feminino. É autora colaboradora do livro Referências Básicas do Direito Contemporâneo - Vol. 1 com o artigo: Direito e Políticas Públicas na interseção do feminismo; idealizadora do Projeto Adolescer, da Oficina Terapêutica envolvendo psicologia e pedagogia e do Grupo Psicoterapêutico para crianças de 4 a 6 anos. Compõe o trio gestor da ConsultAR. Regularmente inscrita no Conselho de Psicologia, bem como autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular, por convênios e plano de saúde.",
+        "Graduada em Psicologia e Direito, atuo na promoção de Saúde e Bem-Estar com o público femininono desenvolvimento de autonomia, resgate da autoestima e estabelecimento de relações saudáveis,também atendo o público infantojuvenil por meio de Grupos Psicoterapêuticos associados aotrabalho com os familiares. Sou regularmente habilitada pelo Conselho de Psicologia paraatendimento presencial e remoto.",
     },
     {
-      title: "Raabe Rodrigues",
+      title: "Psicóloga Raabe Santos (CRP 05/57226)",
       image: "/raaaaabe.jpg",
       description:
-        "Psicóloga clínica infantojuvenil; especialista em atendimento infantil, em neuropsicologia, em psicopedagogia e em psicologia hospitalar e da saúde, sua formação em Psicologia se deu pela Universidade de Vassouras. Realiza atendimentos de avaliação do desenvolvimento infantil, orientação a pais e responsáveis, terapia de casal e psicoterapia individual de crianças, adolescentes, adultos e idosos. Regularmente inscrita no Conselho de Psicologia, realiza atendimento na ConsultAR em Vassouras e atendimento on-line",
+        "Pós-graduada em neuropsicologia, psicopedagogia e psicologia hospitalar e da saúde, realizoavaliação do desenvolvimento infantil, além de trabalhar com demandas de autismo infantil etécnica ABA visando a promoção de Saúde e Bem-Estar. Sou habilitada pelo Conselho dePsicologia, faço atendimento infantojuvenil e orientação de pais e responsáveis.",
     },
     {
-      title: "Ana Claudia",
+      title: "• Psicóloga Bianca Miraglia (CRP 05/73766)",
+      image: "/bianca.jpg",
+      description:"Pós-graduada em saúde mental e desenvolvimento humano e cursos de aperfeiçoamento emneuropsicologia, TDAH e Transtornos Globais do Desenvolvimento e Arteterapia para Idosos comfoco na Saúde e no Bem-Estar. Atuo com público infantil, adulto e idosos e estou regularmenteinscrita no Conselho de Psicologia.",
+    },
+    {
+      title: "Nutricionista Marcus Palmeira",
+      image: "/marcus.jpg",
+      description:
+        "Sou formado em nutrição há mais de 10 anos, palestrante e professor universitário especialista emnutrição esportiva, fisiologia do movimento, bioquímica do exercício e psicologia aplicada ànutrição. Além de nutricionista sou tricampeão carioca, campeão regional e vice campeão brasileirode fisiculturismo. Nesta jornada, foram mais de 10mil pacientes atendidos promovendo Saúde eBem-Estar.",
+    },
+    {
+      title: "Psicopedagoga Ana Claudia",
       image: "/Anaclaudia.jpg",
       description:
         "Professora de Educação Especial desde 2002 e formação em psicopedagogia, Ana Cláudia é parceira da ConsultAR e atende no Espaço Psicopedagógico em Barra do Piraí. Graduada em estudos sociais, especialista em autismo e apaixonada por práticas baseadas em evidências: ABA, TEACCH, Denver, DIR Floortime/Desenvolvimento Infantil (DIR 101 e em andamento DIR 201) e integração sensorial.",
     },
     {
-      title: "Andressa Flor",
+      title: " Fisioterapeuta Andressa Flor",
       image: "/maryflor.jpg",
       description:
         "Fisioterapeuta, atua com fisioterapia geral, fisioterapia estética, pilates, drenagem linfática, massagem modeladora e massagem redutora. Parceira da ConsultAR, atende no Studio Mary & Flor Fisioterapia e atendimento domiciliar.",
-    },
-    {
-      title: "Ana Celia Dieguez",
-      image: "/AnaCelia.jpg",
-      description:
-        "Graduada em psicologia pela Universidade de Vassouras, atende pela perspectiva da Psicanálise. Além do atendimento clínico a adultos e idosos, atende como palestrante. Atende na ConsultAR em Barra do Piraí e on-line. Regularmente inscrita no Conselho de Psicologia, bem como devidamente autorizada por este a prestar serviços na modalidade on-line, realiza consulta particular e convênios.",
     },
   ];
 
@@ -86,16 +91,16 @@ const Galeria = () => {
         <Slider {...settings}>
           {slidesData.map((slide, index) => (
             <div key={index} className="px-4 hover:scale-105 transition-transform duration-300">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <div className=" bg-gray-200 rounded-xl shadow-lg overflow-hidden">
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full object-cover h-64 sm:h-80 md:h-96 rounded-t-xl"
+                  className="w-full object-cover h-64 sm:h-80 md:h-96 rounded-t-xl border-b-2 border-red-700"
                   loading="lazy"
                 />
                 <div className="p-4">
                   <h3 className="text-xl font-semibold text-red-700 mb-2">{slide.title}</h3>
-                  <p className="text-gray-600 text-sm md:text-md text-justify leading-relaxed">{slide.description}</p>
+                  <p className="text-gray-700 text-md md:text-md text-justify leading-relaxed">{slide.description}</p>
                 </div>
               </div>
             </div>

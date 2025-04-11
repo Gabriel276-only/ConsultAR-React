@@ -3,11 +3,15 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const profissionais = [
-  { nome: 'Bárbara Crivas - Psicóloga', criterio: ['avaliacao-psicologica', 'Depressao','autoconhecimento', 'psicologia-clinica', 'psicologia-da-saude', 'grupos-terapeuticos', 'Ansiedade', 'Autoconhecimento', 'Cirurgia Bariátrica', 'Conflitos Familiares', 'Crianças e Adolescentes', 'Emagrecimento/Obesidade', 'Estresse','Exame Psicológico/Avaliação Admissional', 'Incertezas quanto ao Futuro', 'Maternidade', 'Orientação de Pais', 'Questões Raciais', 'Saúde Feminina', 'Suicídio','Violência Doméstica'], contato: "https://api.whatsapp.com/send/?text=Psicóloga+Bárbara+Crivas+-+https%3A%2F%2Fwa.me%2F5524992478872%3Ftext%3DOlá%21+Peguei+seu+contato+pela+ConsultAR%2C+gostaria+de+mais+informações+sobre+o+acompanhamento+psicológico&type=custom_url&app_absent=0" },
-  { nome: 'Regiane Araújo - Psicóloga', criterio: ['avaliacao-psicologica', 'Depressao', 'Desenvolvimento de Competências Profissionais','psicologia-clinica', 'psicologia-da-saude', 'Adoção', 'Ansiedade', ' Cirurgia Bariátrica', 'Compulsões',  'Conflitos Familiares', 'Depressão', 'Desenvolvimento de Compentências Profissionais', 'Emagrecimento/Obesidade', 'Estresse', 'Exame Psicológico/Avaliação Admissional', 'Fobias', 'Idoso/Terceira idade', 'Incertezas quanto ao Futuro', 'Morte e Luto', 'Sexualidade e Identidade de gênero', 'Transtorno Alimentares'], contato: "https://api.whatsapp.com/send/?text=Psicóloga+Regiane+Magalhães+-+https%3A%2F%2Ftr.ee%2FK_UCoVvoxd&type=custom_url&app_absent=0" },
-  { nome: 'Raabe Santos - Psicóloga', criterio: ['avaliacao-psicologica', 'Depressao', 'Crianças e Adolescentes','psicologia-clinica', 'neuropsicologia', 'hospitalar', 'psicologia-da-saude', 'psicopedagogia', 'grupos-terapeuticos', 'neuropsicopedagogia', 'ABA', 'Ansieade', 'Aprendizagem', 'Autoconhecimento', 'Conflitos Familiares', 'Criança e Adolescentes', 'Depressão', 'Dores', 'Exame psicológico/Avaliação Admissional','Estresse','Fobias','Incertezas quanto ao futuro','Maternidade','Morte e Luto', 'Orientação de Pais', 'Orientação Profissional', 'Pacientes enfermos', 'Planejamento psicopedagógico', 'Reabilitação Neuropsicológica', 'Saúde Feminina', 'Síndrome do Pânico', 'TEA', 'TDAH','TOC','Treinamento de memória'], contato: "https://api.whatsapp.com/send/?phone=5524992985705&text=Olá%21+Peguei+seu+contato+pela+ConsultAR%2C+gostaria+de+mais+informações+sobre+o+acompanhamento+psicológico&type=phone_number&app_absent=0"},
+  { nome: 'Bárbara Crivas - Psicóloga', criterio: ['avaliacao-psicologica', 'Depressao','autoconhecimento', 'psicologia-clinica',  'grupos-terapeuticos', 'Ansiedade', 'Autoconhecimento', 'Cirurgia Bariátrica', 'Conflitos Familiares', 'Crianças e Adolescentes', 'Emagrecimento/Obesidade', 'Estresse','Exame Psicológico/Avaliação Admissional', 'Incertezas quanto ao Futuro', 'Maternidade', 'Orientação de Pais', 'Questões Raciais', 'Saúde Feminina', 'Suicídio','Violência Doméstica'], contato: "https://api.whatsapp.com/send/?text=Psicóloga+Bárbara+Crivas+-+https%3A%2F%2Fwa.me%2F5524992478872%3Ftext%3DOlá%21+Peguei+seu+contato+pela+ConsultAR%2C+gostaria+de+mais+informações+sobre+o+acompanhamento+psicológico&type=custom_url&app_absent=0" },
+  { nome: 'Regiane Araújo - Psicóloga', criterio: ['avaliacao-psicologica', 'Depressao', 'Desenvolvimento de Competências Profissionais','psicologia-clinica',  'Adoção', 'Ansiedade', ' Cirurgia Bariátrica', 'Compulsões',  'Conflitos Familiares', 'Depressão', 'Desenvolvimento de Compentências Profissionais', 'Emagrecimento/Obesidade', 'Estresse', 'Exame Psicológico/Avaliação Admissional', 'Fobias', 'Idoso/Terceira idade', 'Incertezas quanto ao Futuro', 'Morte e Luto', 'Sexualidade e Identidade de gênero', 'Transtorno Alimentares'], contato: "https://api.whatsapp.com/send/?text=Psicóloga+Regiane+Magalhães+-+https%3A%2F%2Ftr.ee%2FK_UCoVvoxd&type=custom_url&app_absent=0" },
+  { nome: 'Raabe Santos - Psicóloga', criterio: ['avaliacao-psicologica', 'Depressao', 'Crianças e Adolescentes','psicologia-clinica', 'neuropsicologia',   'psicopedagogia', 'grupos-terapeuticos', 'ABA', 'Ansieade', 'Aprendizagem', 'Autoconhecimento', 'Conflitos Familiares', 'Criança e Adolescentes', 'Depressão', 'Dores', 'Exame psicológico/Avaliação Admissional','Estresse','Fobias','Incertezas quanto ao futuro','Maternidade','Morte e Luto', 'Orientação de Pais', 'Orientação Profissional', 'Pacientes enfermos', 'Planejamento psicopedagógico', 'Reabilitação Neuropsicológica', 'Saúde Feminina', 'Síndrome do Pânico', 'TEA', 'TDAH','TOC','Treinamento de memória'], contato: "https://api.whatsapp.com/send/?phone=5524992985705&text=Olá%21+Peguei+seu+contato+pela+ConsultAR%2C+gostaria+de+mais+informações+sobre+o+acompanhamento+psicológico&type=phone_number&app_absent=0"},
   { nome: 'Acácio Borges - Massouterapeuta', criterio: ['psicomotricidade', 'grupos-terapeuticos', 'massoterapia','Ansiedade', 'Bandagem elástica', 'Cone Hindu', 'Drenagem Linfática', 'Dores', 'Dry needling', 'Estresse', 'Idoso/Terceira idade', 'Liberação Miofascial', 'Massagem esportiva','Massagem Relaxante', 'Massagem Terapeutica', 'Pedras quentes', 'Recuperação Muscular', 'Ventosaterapia'], contato: "https://api.whatsapp.com/send/?text=Massoterapeuta+Acácio+Borges+-+https%3A%2F%2Ftr.ee%2Fo-zxbMAdHa&type=custom_url&app_absent=0" },
-  { nome: 'Andressa - Fisioterapeuta', criterio: ['fisioterapia', 'Dores','Fisioterapia Neurofuncional', 'Idoso/Terceira Idade', 'Pilates', 'Trauma e Ortopedia'], contato: "https://api.whatsapp.com/send/?phone=5524992691139&text=Olá%21+Peguei+seu+contato+pela+ConsultAR%2C+gostaria+de+mais+informações+sobre+fisioterapia&type=phone_number&app_absent=0" }
+  { nome: 'Andressa - Fisioterapeuta', criterio: ['fisioterapia', 'Dores','Fisioterapia Neurofuncional', 'Idoso/Terceira Idade', 'Pilates', 'Trauma e Ortopedia'], contato: "https://api.whatsapp.com/send/?phone=5524992691139&text=Olá%21+Peguei+seu+contato+pela+ConsultAR%2C+gostaria+de+mais+informações+sobre+fisioterapia&type=phone_number&app_absent=0" },
+  { nome: 'Bianca Miraglia - Psicóloga', criterio: ['avaliacao-psicologica', 'psicologia-clinica', 'Adoção', 'Ansiedade', 'Aprendizagem', 'Avaliação Psicológica', 'Cirurgia Bariátrica', 'Compulsões', 'Conflitos com a Lei', 'Conflitos Familiares', 'Crianças e Adolescentes', 'Dependência Química', 'Depressão', 'Desenvolvimento de Competências Profissionais', 'Dores', 'Emagrecimento/Obesidade', 'Estresse', 'Exame Psicológico/Avaliação Admissional', 'Fobias', 'Idoso/Terceira Idade', 'Incertezas quanto ao futuro', 'Maternidade', 'Morte e Luto', 'Orientação de Pais', 'Orientação Profissional', 'Pacientes enfermos', 'Pessoa com Deficiência', 'Planejamento psicopedagógico', 'Preparaçaõ para Aposentadoria', 'Psicologia Clínica', 'Questões Raciais', 'Reabilitação Neuropsicológica', 'Saúde Feminina', 'Sexualidade e Identidade de gênero', 'Síndrome do Pânico', 'Suicídio', 'TDAH', 'TEA', 'TOC', 'Transtornos Alimentares', 'Violência Doméstica', 'Violência Sexual'], contato: "https://api.whatsapp.com/send/?text=Psicóloga+Bianca+Miraglia+-+https%3A%2F%2Ftr.ee%2F4g0v1x5b7e&type=custom_url&app_absent=0"},
+  { nome: 'Marcus Palmeira - Nutricionista', criterio: ['nutrição'], contato: "https://api.whatsapp.com/send/?text=Nutricionista+Marcus+Palmeira+-+https%3A%2F%2Ftr.ee%2F4g0v1x5b7e&type=custom_url&app_absent=0" },
+  { nome: 'Ana Claudia - Psicopedagoga', criterio: ['psicopedagogia', ], contato: "https://api.whatsapp.com/send/?text=Psicopedagoga+Ana+Claudia+-+https%3A%2F%2Ftr.ee%2F4g0v1x5b7e&type=custom_url&app_absent=0" },
+  { nome: 'Marilda - Fonoaudióloga', criterio: ['fono'], contato: "https://api.whatsapp.com/send/?text=Fonoaudióloga+Marilda+-+https%3A%2F%2Ftr.ee%2F4g0v1x5b7e&type=custom_url&app_absent=0" },
 ];
 
 const FormsPage = () => {
@@ -63,18 +67,17 @@ const FormsPage = () => {
             <option value="">Selecione uma opção</option>
             {tipoBusca === "criterio" ? (
               <>
+                <option value="ABA">ABA - Análise Comportamental Aplicada</option>
                 <option value="avaliacao-psicologica">Avaliação Psicológica</option>
                 <option value="psicologia-clinica">Psicologia Clínica</option>
                 <option value="neuropsicologia">Neuropsicologia</option>
-                <option value="hospitalar">Psicologia Hospitalar</option>
-                <option value="psicologia-da-saude">Psicologia da Saúde</option>
                 <option value="psicopedagogia">Psicopedagogia</option>
                 <option value="psicomotricidade">Psicomotricidade</option>
                 <option value="grupos-terapeuticos">Grupos Terapêuticos</option>
                 <option value="massoterapia">Massoterapia</option>
                 <option value="fisioterapia">Fisioterapia</option>
-                <option value="neuropsicopedagogia">Neuropsicopedagogia</option>
-                <option value="ABA">ABA - Análise Comportamental Aplicada</option>
+                <option value="nutrição">Nutrição</option>
+                <option value="fono">Fonoaudiologia</option>
               </>
             ) : (
               <>
@@ -88,7 +91,6 @@ const FormsPage = () => {
                 <option value="Crianças e Adolescentes">Crianças e Adolescentes</option>
                 <option value="Depressao">Depressão</option>
                 <option value="Desenvolvimento de Competências Profissionais">Desenvolvimento de Competências Profissionais</option>
-                <option value="Dores">Dores</option>
                 <option value="Emagrecimento/Obesidade">Emagrecimento/Obesidade</option>
                 <option value="Estresse">Estresse</option>
                 <option value="Exame Psicológico/Avaliação Admissional">Exame Psicológico/Avaliação Admissional</option>
@@ -113,21 +115,8 @@ const FormsPage = () => {
                 <option value="Transtorno Alimentares">Trasntorno Alimentares</option>
                 <option value="Treinamento de memória">Treinamento de memória</option>
                 <option value="Violência Doméstica">Violência Doméstica</option>
-                <option value="Bandagem elástica">Bandagem elástica</option>
-                <option value="Cone Hindu">Cone Hindu</option>
-                <option value="Dry needling">Dry Needling</option>
-                <option value="Drenagem Linfática">Drenagem Linfática</option>
-                <option value="Massagem esportiva">Massagem esportiva</option>
-                <option value="Massagem Relaxante">Massagem Relaxante</option>
-                <option value="Massagem Terapeutica">Massagem Terapeutica</option>
-                <option value="Liberação Miofascial">Liberação Miofascial</option>
-                <option value="Pedras quentes">Pedras quentes</option>
-                <option value="Recuperação Muscular">Recuperação Muscular</option>
-                <option value="Ventosaterapia">Ventosaterapia</option>
-                <option value="Fisioterapia Neurofuncional">Fisioterapia Neurofuncional</option>
-                <option value="Pilates">Pilates</option>
-                <option value="Trauma e Ortopedia">Trauma e Ortopedia</option>
-
+                <option value="Violência Sexual">Violência Sexual</option>
+                
 
 
               
