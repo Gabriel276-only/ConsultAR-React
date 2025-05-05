@@ -94,11 +94,11 @@ const Galeria = () => {
           {slidesData.map((slide, index) => (
            <div key={index} className="px-2 sm:px-4 hover:scale-105 transition-transform duration-300">
            <div className="bg-gray-300/50 rounded-xl overflow-hidden shadow-md">
-             <div className="w-full aspect-[4/3] sm:aspect-[3/2] overflow-hidden">
+             <div className="w-full aspect-[4/3]  overflow-hidden">
                <img
                  src={slide.image}
                  alt={slide.title}
-                 className="w-full h-full object-cover"
+                 className="w-full h-full object-cover "
                  loading="lazy"
                />
              </div>
