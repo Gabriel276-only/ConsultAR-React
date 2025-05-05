@@ -92,17 +92,19 @@ const Galeria = () => {
         <h2 className="text-3xl sm:text-4xl font-extrabold text-red-700 mb-6 text-center">Nossos Profissionais</h2>
         <Slider {...settings}>
           {slidesData.map((slide, index) => (
-            <div key={index} className="px-4 hover:scale-105 transition-transform duration-300">
-              <div className="bg-gray-300/50 rounded-xl overflow-hidden">
-                <img
-                  src={slide.image}
-                  alt={slide.title}
-                  className="w-full h-32 sm:h-96 md:h-full object-cover rounded-t-xl border-b-2 border-red-700"
-                  loading="lazy"
-                />
-                <div className="p-5">
+           <div key={index} className="px-2 sm:px-4 hover:scale-105 transition-transform duration-300">
+           <div className="bg-gray-300/50 rounded-xl overflow-hidden shadow-md">
+             <div className="w-full aspect-[4/3] sm:aspect-[3/2] overflow-hidden">
+               <img
+                 src={slide.image}
+                 alt={slide.title}
+                 className="w-full h-full object-cover"
+                 loading="lazy"
+               />
+             </div>
+                <div className="p-4 sm:p-6">
                   <h3 className="text-xl font-semibold text-red-700 mb-2">{slide.title}</h3>
-                  <p className="text-gray-800 text-justify text-sm sm:text-base leading-relaxed">{slide.description}</p>
+                  <p className="text-gray-800 text-sm sm:text-base leading-relaxed">{slide.description}</p>
                 </div>
               </div>
             </div>
