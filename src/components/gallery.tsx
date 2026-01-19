@@ -52,18 +52,6 @@ const Galeria = () => {
         "Pós-graduada em Neuropsicologia, Psicopedagogia e Psicologia Hospitalar e da Saúde. Realizo avaliação do desenvolvimento infantil e trabalho com demandas de autismo infantil e técnica ABA visando a promoção de Saúde e Bem-Estar. Habilitada pelo Conselho de Psicologia, faço atendimento infantojuvenil e orientação de pais e responsáveis.",
     },
     {
-      title: "Psicóloga Bianca Miraglia (CRP 05/73766)",
-      image: "/assets/professional/PSI Bianca Miraglia.png",
-      description:
-        "Pós-graduada em Saúde Mental e Desenvolvimento Humano, com cursos em Neuropsicologia, TDAH, Transtornos do Desenvolvimento e Arteterapia para idosos. Atuo com público infantil, adulto e idosos. Regularmente inscrita no Conselho de Psicologia.",
-    },
-    {
-      title: "Nutricionista Marcus Palmeira",
-      image: "/assets/professional/Nutri Marcus Palmeira.png",  
-      description:
-        "Sou formado em Nutrição há mais de 10 anos. Palestrante e professor universitário especialista em Nutrição Esportiva, Fisiologia do Movimento, Bioquímica do Exercício e Psicologia aplicada à Nutrição. Tricampeão carioca, campeão regional e vice-campeão brasileiro de fisiculturismo. Já atendi mais de 10 mil pacientes promovendo Saúde e Bem-Estar.",
-    },
-    {
       title: "Psicopedagoga Ana Cláudia",
       image: "/assets/professional/PSI Ana Cláudia.png",
       description:
