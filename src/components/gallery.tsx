@@ -58,14 +58,14 @@ const Galeria = () => {
         "Professora de Educação Especial desde 2002 e formada em Psicopedagogia. Atende no Espaço Psicopedagógico em Barra do Piraí. Especialista em autismo, apaixonada por práticas baseadas em evidências: ABA, TEACCH, Denver, DIR Floortime (DIR 101 e 201 em andamento) e integração sensorial.",
     },
     {
-      title: "Psicóloga Fabaiana da Fonseca",
-      image: "/assets/professional/profissional6.png",
+      title: "Psicóloga Fabiana da Fonseca",
+      image: "/assets/professional/profissional7.png",
       description:
         "Professora de Educação Especial desde 2002 e formada em Psicopedagogia. Atende no Espaço Psicopedagógico em Barra do Piraí. Especialista em autismo, apaixonada por práticas baseadas em evidências: ABA, TEACCH, Denver, DIR Floortime (DIR 101 e 201 em andamento) e integração sensorial.",
     },
     {
       title: "Fisioterapeuta Andressa Flor",
-      image: "/assets/professional/profissional7.png",
+      image: "/assets/professional/profissional6.png",
       description:
         "Fisioterapeuta com atuação em fisioterapia geral, estética, pilates, drenagem linfática, massagem modeladora e redutora. Parceira da ConsultAR, atende no Studio Mary & Flor Fisioterapia e com atendimento domiciliar.",
     },
